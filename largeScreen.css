@@ -19,6 +19,7 @@
 .product10000{
     font-size: 50px; 
     margin: 8px;
+    color: hsl(300, 43%, 22%);
 }
 .loveProductDescription p {
     width: 60%;
