@@ -1,16 +1,20 @@
 #mainBox{
    padding: 5% 8% 3% 8%;
+   /* border: 1px solid black; */
+    
 }
 #upperBox{
     display: flex;  
     /* border: 1px solid black; */
-    
+    width: 75%;
+    margin: auto;
+    background-image: url('./images/bg-pattern-top-desktop.svg');
 }
 
 
 .Box1Product{
     /* border: 1px solid black; */
-    flex: 1;
+    flex: 1.5;
 }
 
 .loveProduct{
@@ -29,6 +33,7 @@
 #RatingBoxMain{
     flex: 1;
     /* border: 1px solid black; */
+    
 }
 
 
@@ -52,7 +57,7 @@
     /* gap: 15px; */
     align-items: center;
     justify-content: center;
-    width: 50%;
+    /* width: 50%; */
     margin-bottom: 2%;
 }
 .ratingBox div:nth-child(1){
@@ -61,11 +66,14 @@
     padding-top: 1.5%;
 }
 .lowerBox{
+    width: 75%;
+    margin: auto;
     display: flex;
     /* border: 1px solid black; */
-    padding: 2% 1%;
+    padding: 2% 0%;
     gap: 1.5%;
     margin-top: 3%;
+    background-image: url('./images/bg-pattern-bottom-desktop.svg');
 }
 
 .two{
@@ -77,7 +85,7 @@
     top: 65px;
 }
 .buyerMainBox{
-    border: 1px solid black;
+    /* border: 4px solid black; */
     width: 70%;
     margin: auto;
     padding: 3%;
@@ -107,11 +115,12 @@
 .nameBox{
     
     flex: 5;
+    /* border: 1px solid red; */
 }
 .nameBox p{
     margin: 5px;
     font-size: 14px;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 .nameBox p:nth-child(1){
     font-weight: bold;
