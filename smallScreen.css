@@ -1,94 +1,87 @@
-*{
-    font-family: 'League Spartan', sans-serif;
+* {
+  font-family: 'League Spartan', sans-serif;
 }
-#mainBox{
-    /* height: 800px; */
-    padding: 8% 3%;
+#mainBox {
+  padding: 8% 3%;
 }
-.Box1Product{
-    text-align: center;
+.Box1Product {
+  text-align: center;
 }
-.loveProduct{
-    color: hsl(300, 43%, 22%);
-    width: 80%;
-    margin: auto;
-    
+.loveProduct {
+  color: hsl(300, 43%, 22%);
+  width: 80%;
+  margin: auto;
 }
-.loveProductDescription{
-    width: 90%;
-    margin: auto;
-    font-size: 15px;
-    color: hsl(303, 10%, 53%);
+.loveProductDescription {
+  width: 90%;
+  margin: auto;
+  font-size: 15px;
+  color: hsl(303, 10%, 53%);
 }
-#RatingBoxMain{
-    width: 95%;
-    display: grid;
-    grid-gap: 10px;
-    margin: auto;
-    margin-top: 40px;
-
+#RatingBoxMain {
+  width: 95%;
+  display: grid;
+  grid-gap: 10px;
+  margin: auto;
+  margin-top: 40px;
 }
-.ratingBox{
-    padding: 5% 0%;
-    text-align: center;
-    color: hsl(300, 43%, 22%);
-    background-color: hsl(290, 30%, 96%);
-    border-radius: 5%;
+.ratingBox {
+  padding: 5% 0%;
+  text-align: center;
+  color: hsl(300, 43%, 22%);
+  background-color: hsl(290, 30%, 96%);
+  border-radius: 5%;
 }
-.ratingBox div:nth-child(1){
-    margin: 0px;
-    padding-top: 1.5%;
+.ratingBox div:nth-child(1) {
+  margin: 0px;
+  padding-top: 1.5%;
 }
-.ratingName{
-    margin: 5px;
+.ratingName {
+  margin: 5px;
 }
 
-.lowerBox{
-    margin-top: 40px;
+.lowerBox {
+  margin-top: 40px;
 }
 
-.buyerMainBox{
-    border: 1px solid black;
-    width: 80%;
-    margin: auto;
-    padding: 8%;
-    background-color: hsl(301, 45%, 22%);
-    color: white;
-    border-radius: 10px;
-    margin-bottom: 20px;
+.buyerMainBox {
+  border: 1px solid black;
+  width: 80%;
+  margin: auto;
+  padding: 8%;
+  background-color: hsl(301, 45%, 22%);
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
-.ImgBox{
-    display: flex;
+.ImgBox {
+  display: flex;
 }
-.imgPic{
-    border-radius: 50%;
-    width: 90%;
-    margin-top: 5%;
+.imgPic {
+  border-radius: 50%;
+  width: 90%;
+  margin-top: 5%;
 }
-.imgBoxPersonal{
-    /* border: 1px solid black; */
-    flex: 1;
-    text-align: center;
-    
+.imgBoxPersonal {
+  /* border: 1px solid black; */
+  flex: 1;
+  text-align: center;
 }
-.nameBox{
-    
-    flex: 5;
+.nameBox {
+  flex: 5;
 }
-.nameBox p{
-    margin: 5px;
-    font-size: 14px;
-    padding-left: 10%;
+.nameBox p {
+  margin: 5px;
+  font-size: 14px;
+  padding-left: 10%;
 }
-.nameBox p:nth-child(1){
-    font-weight: bold;
+.nameBox p:nth-child(1) {
+  font-weight: bold;
 }
-.nameBox p:nth-child(2){
-    color: hsl(303, 10%, 53%);
-    
+.nameBox p:nth-child(2) {
+  color: hsl(303, 10%, 53%);
 }
-.buyerDes{
-    /* border: 1px solid black; */
-    font-size: 14px;
-    line-height: 25px;
+.buyerDes {
+  font-size: 14px;
+  line-height: 25px;
 }

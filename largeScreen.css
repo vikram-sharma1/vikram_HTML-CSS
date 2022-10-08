@@ -1,140 +1,115 @@
-*{
-    font-family: 'League Spartan', sans-serif;
+* {
+  font-family: 'League Spartan', sans-serif;
 }
-#mainBox{
-   padding: 5% 8% 3% 8%;
-   /* border: 1px solid black; */
-    
+#mainBox {
+  padding: 5% 8% 3% 8%;
 }
-#upperBox{
-    display: flex;  
-    /* border: 1px solid black; */
-    width: 75%;
-    margin: auto;
-    background-image: url('./images/bg-pattern-top-desktop.svg');
+#upperBox {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  background-image: url('./images/bg-pattern-top-desktop.svg');
 }
 
-
-.Box1Product{
-    /* border: 1px solid black; */
-    flex: 1.5;
+.Box1Product {
+  flex: 1.7;
 }
 
-.loveProduct{
-    width: 60%;  
+.loveProduct {
+  width: 60%;
 }
-.product10000{
-    font-size: 50px; 
-    margin: 8px;
-    color: hsl(300, 43%, 22%);
+.product10000 {
+  font-size: 50px;
+  margin: 8px;
+  color: hsl(300, 43%, 22%);
 }
 .loveProductDescription p {
-    width: 60%;
-    color: hsl(303, 10%, 53%);
-    margin: 5px;
+  width: 60%;
+  color: hsl(303, 10%, 53%);
+  margin: 5px;
 }
-#RatingBoxMain{
-    flex: 1;
-    /* border: 1px solid black; */
-    
+#RatingBoxMain {
+  flex: 1;
 }
 
-
-#RatingBoxMain div:nth-child(2){
-    margin-left: 10%;
-    
+#RatingBoxMain div:nth-child(2) {
+  margin-left: 10%;
 }
-#RatingBoxMain div:nth-child(3){
-    margin-left: 20%;
-    
+#RatingBoxMain div:nth-child(3) {
+  margin-left: 20%;
 }
 
-
-.ratingBox{
-    /* border: 1px solid black; */
-    text-align: center;
-    color: hsl(300, 43%, 22%);
-    background-color: hsl(290, 30%, 96%);
-    border-radius: 15px;
-    display: flex;
-    /* gap: 15px; */
-    align-items: center;
-    justify-content: center;
-    /* width: 50%; */
-    margin-bottom: 2%;
+.ratingBox {
+  text-align: center;
+  color: hsl(300, 43%, 22%);
+  background-color: hsl(290, 30%, 96%);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2%;
 }
-.ratingBox div:nth-child(1){
-    /* flex: 3; */
-    margin: 0px;
-    padding-top: 1.5%;
+.ratingBox div:nth-child(1) {
+  margin: 0px;
+  padding-top: 1.5%;
 }
-.lowerBox{
-    width: 75%;
-    margin: auto;
-    display: flex;
-    /* border: 1px solid black; */
-    padding: 2% 0%;
-    gap: 1.5%;
-    margin-top: 3%;
-    background-image: url('./images/bg-pattern-bottom-desktop.svg');
+.lowerBox {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  padding: 2% 0%;
+  gap: 1.5%;
+  margin-top: 3%;
+  background-image: url('./images/bg-pattern-bottom-desktop.svg');
 }
 
-.two{
-    position: relative;
-    top: 35px;
+.two {
+  position: relative;
+  top: 35px;
 }
-.three{
-    position: relative;
-    top: 65px;
+.three {
+  position: relative;
+  top: 65px;
 }
-.buyerMainBox{
-    /* border: 4px solid black; */
-    width: 70%;
-    margin: auto;
-    padding: 3%;
-    background-color: hsl(301, 45%, 22%);
-    color: white;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    /* border: 1px solid black; */
-    flex: 1;
-
+.buyerMainBox {
+  width: 70%;
+  margin: auto;
+  padding: 3%;
+  background-color: hsl(301, 45%, 22%);
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  flex: 1;
 }
 
-.ImgBox{
-    display: flex;
+.ImgBox {
+  display: flex;
 }
-.imgPic{
-    border-radius: 50%;
-    width: 90%;
-    margin-top: 5%;
+.imgPic {
+  border-radius: 50%;
+  width: 90%;
+  margin-top: 5%;
 }
-.imgBoxPersonal{
-    /* border: 1px solid black; */
-    flex: 1;
-    text-align: center;
-    
+.imgBoxPersonal {
+  flex: 1;
+  text-align: center;
 }
-.nameBox{
-    
-    flex: 5;
-    /* border: 1px solid red; */
+.nameBox {
+  flex: 5;
 }
-.nameBox p{
-    margin: 5px;
-    font-size: 14px;
-    padding-left: 5%;
+.nameBox p {
+  margin: 5px;
+  font-size: 14px;
+  padding-left: 5%;
 }
-.nameBox p:nth-child(1){
-    font-weight: bold;
+.nameBox p:nth-child(1) {
+  font-weight: bold;
 }
-.nameBox p:nth-child(2){
-    color: hsl(303, 10%, 53%);
-    
+.nameBox p:nth-child(2) {
+  color: hsl(303, 10%, 53%);
 }
 
-.buyerDes{
-    /* border: 1px solid black; */
-    font-size: 14px;
-    line-height: 25px;
+.buyerDes {
+  font-size: 14px;
+  line-height: 25px;
 }
