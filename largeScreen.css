@@ -12,12 +12,9 @@
 }
 
 .Box1Product {
-  flex: 1.7;
+  flex: 1;
 }
 
-.loveProduct {
-  width: 60%;
-}
 .product10000 {
   font-size: 50px;
   margin: 8px;
@@ -40,14 +37,16 @@
 }
 
 .ratingBox {
+  width: 80%;
   text-align: center;
   color: hsl(300, 43%, 22%);
   background-color: hsl(290, 30%, 96%);
   border-radius: 15px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin-bottom: 2%;
+  font-size: 15px;
 }
 .ratingBox div:nth-child(1) {
   margin: 0px;
@@ -113,3 +112,4 @@
   font-size: 14px;
   line-height: 25px;
 }
+
