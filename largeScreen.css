@@ -29,7 +29,7 @@
   margin: 5px;
 }
 #RatingBoxMain {
-  flex: 1;
+  flex: 1.1;
 }
 
 #RatingBoxMain div:nth-child(2) {
