@@ -1,5 +1,24 @@
-* {
+/* Very Dark Magenta: hsl(300, 43%, 22%)
+Soft Pink: hsl(333, 80%, 67%)
+Dark Grayish Magenta: hsl(303, 10%, 53%)
+Light Grayish Magenta: hsl(300, 24%, 96%)
+White: hsl(0, 0%, 100%) */
+
+:root {
+  --dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --soft-grayish-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+
+html {
   font-family: 'League Spartan', sans-serif;
+}
+body {
+  background-image: url('./images/bg-pattern-bottom-desktop.svg');
+  background-image: url('./images/bg-pattern-top-desktop.svg');
+  background-repeat: no-repeat;
 }
 #mainBox {
   padding: 8% 3%;
@@ -8,7 +27,7 @@
   text-align: center;
 }
 .loveProduct {
-  color: hsl(300, 43%, 22%);
+  color: var(--dark-magenta);
   width: 80%;
   margin: auto;
 }
@@ -16,7 +35,7 @@
   width: 90%;
   margin: auto;
   font-size: 15px;
-  color: hsl(303, 10%, 53%);
+  color: var(--dark-grayish-magenta);
 }
 #RatingBoxMain {
   width: 95%;
@@ -29,7 +48,7 @@
   padding: 5% 0%;
   text-align: center;
   color: hsl(300, 43%, 22%);
-  background-color: hsl(290, 30%, 96%);
+  background-color: var(--soft-grayish-magenta);
   border-radius: 5%;
 }
 .ratingBox div:nth-child(1) {
@@ -49,8 +68,8 @@
   width: 80%;
   margin: auto;
   padding: 8%;
-  background-color: hsl(301, 45%, 22%);
-  color: white;
+  background-color: var(--dark-magenta);
+  color: var(--white);
   border-radius: 10px;
   margin-bottom: 20px;
 }
@@ -84,4 +103,148 @@
 .buyerDes {
   font-size: 14px;
   line-height: 25px;
+}
+
+@media screen and (min-width: 376px) and (max-width: 1920px) {
+  /* * {
+    font-family: 'League Spartan', sans-serif;
+  }
+  #mainBox {
+    padding: 5% 8% 3% 8%;
+  } */
+  #upperBox {
+    /* border: 1px solid black; */
+    display: flex;
+    width: 70%;
+    margin: auto;
+  }
+
+  .box1Product {
+    flex: 1;
+    /* font-weight: 900; */
+  }
+
+ .loveProduct{
+    /* width: 100%; */
+    width: 60%;
+    margin:5px;
+    }
+
+  .product10000 {
+    font-size: 50px;
+    /* margin: 6px; */
+    /* border: 1px solid black; */
+    color: hsl(300, 43%, 22%);
+  }
+  .loveProductDescription{
+    margin: 10px;
+    
+  }
+  .loveProductDescription p {
+    width: 60%;
+    /* border: 1px solid black; */
+    margin: 0%;
+    color: hsl(303, 10%, 53%);
+    /* margin: 5px; */
+  } 
+  #ratingBoxMain {
+    flex: 1.1;
+    font-weight: 500;
+  }
+
+  #ratingBoxMain div:nth-child(2) {
+    margin-left: 15%;
+  }
+  #ratingBoxMain div:nth-child(3) {
+    margin-left: 30%;
+  }
+  
+  .ratingBox {
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 63%;
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+    background-color: hsl(290, 30%, 96%);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+    font-size: 18px;
+    padding: 0px 20px;
+  }
+  .ratingName{
+    font-weight: 600;
+
+  }
+
+  .ratingBox div:nth-child(1) {
+    margin: 0px;
+    padding-top: 1.5%;
+  }
+  .lowerBox {
+    width: 70%;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    padding: 2% 0%;
+    gap: 1.5%;
+    /* margin-top: 3%; */
+  }
+
+  .two {
+    position: relative;
+    top: 35px;
+  }
+  .three {
+    position: relative;
+    top: 65px;
+  }
+    .buyerMainBox {
+      width: 70%;
+      margin: auto;
+      padding: 3%;
+      background-color: hsl(301, 45%, 22%);
+      color: white;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      flex: 1;
+    }
+
+    .buyerDes p {
+        color: var(--soft-grayish-magenta);
+    }
+
+  .imgBox {
+    display: flex;
+  }
+  .imgPic {
+    border-radius: 50%;
+    width: 90%;
+    margin-top: 5%;
+  }
+  .imgBoxPersonal {
+    flex: 1;
+    text-align: center;
+  }
+  .nameBox {
+    flex: 5;
+  }
+  .nameBox p {
+    margin: 5px;
+    font-size: 14px;
+    padding-left: 5%;
+  }
+  .nameBox p:nth-child(1) {
+    font-weight: bold;
+  }
+  .nameBox p:nth-child(2) {
+    color: hsl(303, 10%, 53%);
+  }
+
+  .buyerDes {
+    font-size: 14px;
+    line-height: 25px;
+  }
 }

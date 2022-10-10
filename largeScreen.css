@@ -8,10 +8,9 @@
   display: flex;
   width: 75%;
   margin: auto;
-  background-image: url('./images/bg-pattern-top-desktop.svg');
 }
 
-.Box1Product {
+.box1Product {
   flex: 1;
 }
 
@@ -25,14 +24,14 @@
   color: hsl(303, 10%, 53%);
   margin: 5px;
 }
-#RatingBoxMain {
+#ratingBoxMain {
   flex: 1.1;
 }
 
-#RatingBoxMain div:nth-child(2) {
+#ratingBoxMain div:nth-child(2) {
   margin-left: 10%;
 }
-#RatingBoxMain div:nth-child(3) {
+#ratingBoxMain div:nth-child(3) {
   margin-left: 20%;
 }
 
@@ -59,7 +58,6 @@
   padding: 2% 0%;
   gap: 1.5%;
   margin-top: 3%;
-  background-image: url('./images/bg-pattern-bottom-desktop.svg');
 }
 
 .two {
@@ -81,7 +79,7 @@
   flex: 1;
 }
 
-.ImgBox {
+.imgBox {
   display: flex;
 }
 .imgPic {
